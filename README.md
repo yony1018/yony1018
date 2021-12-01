@@ -20,3 +20,5 @@ Here are some ideas to get you started:
 📈 my github stats
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=yony1018&show_icons=true&theme=gotham" alt="yony1018" />
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=yony1018&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
