@@ -210,105 +210,18 @@ proxies:
   #   aes-128-ctr aes-192-ctr aes-256-ctr
   #   rc4-md5 chacha20 chacha20-ietf xchacha20
   #   chacha20-ietf-poly1305 xchacha20-ietf-poly1305
-
-  - name: "SanFranNano_DO-SS-DirectV6"
-    type: ss
-    server: 2604:a880:4:1d0::70:4000
-    port: 8388
-    cipher: aes-256-cfb
-    password: "261018"
-    udp: true
-
-  - name: "SanFranNano_DO-SS-Direct"
-    type: ss
-    server: 147.182.226.247
-    port: 8388
-    cipher: aes-256-cfb
-    password: "261018"
-    udp: true
-
-
-  # vmess
-  # 支持加密方式：auto / aes-128-gcm / chacha20-poly1305 / none
-  - name: "Singapore1_DO-Vmess-cft"
-    type: vmess
-    server: 18.65.121.56
-    port: 80
-    uuid: 24654379-455f-426d-8300-c2afd28fee78
-    alterId: 0
-    cipher: auto
-    udp: true
-    # tls: true
-    # skip-cert-verify: true
-    # servername: example.com # 优先级高于 wss host
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: d3a46w3yt5hkch.cloudfront.net
-
-
-  - name: "SanFran1_DO-Vmess-cft"
-    type: vmess
-    server: 18.65.121.56
-    port: 80
-    uuid: 5620e249-4d5b-4f6c-ceec-a33a28ef3aa3
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: d1myth4s7vevd8.cloudfront.net
-
-  - name: "NewYork1_DO-Vmess-cft"
-    type: vmess
-    server: 18.65.121.56
-    port: 80
-    uuid: d12a8f1b-cc99-4fee-d1cb-2ea65cc7ffa3
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /
-      headers:
-        Host: d20lrzmcpmotjh.cloudfront.net
-
-  - name: "Tokyo1_LS-Vmess-cft"
-    type: vmess
-    server: 18.65.121.56
-    port: 80
-    uuid: 1ae681b7-4340-414d-dd14-951463b45fa8
-    alterId: 0
-    cipher: auto
-    udp: true
-    network: ws
-    ws-opts:
-      path: /ray80
-      headers:
-        Host: d2375zzydi85rv.cloudfront.net
-  
-  - name: "SanFranNano_DO-Vmess-DirectV6"
-    type: vmess
-    server: 2604:a880:4:1d0::70:4000
-    port: 20480
-    uuid: 4c0096f1-6364-4feb-a1ee-4a1ca5e91978
-    alterId: 4
-    cipher: auto
-    udp: true
-    network: tcp
-
-  - name: "SanFranNano_DO-Vmess-Direct"
-    type: vmess
-    server: 147.182.226.247
-    port: 20480
-    uuid: 4c0096f1-6364-4feb-a1ee-4a1ca5e91978
-    alterId: 4
-    cipher: auto
-    udp: true
-    network: tcp
+  - {"type":"vmess","name":"NewYork**-CFrtDef","ws-opts":{"path":"/"},"server":"d33cdyowwjzesh.cloudfront.net","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SanFran**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:4:1d0::454:6000","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"NewYork**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:400:d0::1b19:1001","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SanFran**-CFrtDef","ws-opts":{"path":"/"},"server":"dq8ojv9unjusr.cloudfront.net","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"NewYork**-CFlrDef","ws-opts":{"path":"/"},"server":"ny.yonyvp.cf","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Singapore-CFlrDef","ws-opts":{"path":"/"},"server":"sgp.yonyvp.cf","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SanFran**-CFlrDef","ws-opts":{"path":"/"},"server":"sfo.yonyvp.cf","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Tokyo****-CFrtDef","ws-opts":{"path":"/"},"server":"d1aerc2wspy6wb.cloudfront.net","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Tokyo****-CFlrDef","ws-opts":{"path":"/"},"server":"tk.yonyvp.cf","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Singapore-CFrtDef","ws-opts":{"path":"/"},"server":"d1vq7onm8hzwjj.cloudfront.net","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Tokyo****-DrctV6","ws-opts":{"path":"/"},"server":"2406:da14:574:1c00:cd09:2c79:cd57:591e","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Singapore-DrctV6","ws-opts":{"path":"/"},"server":"2400:6180:0:d0::1585:7001","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
 
 #--------------------backup--------------------
   # - name: "vmess-http"
@@ -410,14 +323,18 @@ proxy-groups:
   - name: "auto"
     type: url-test
     proxies:
-      - Tokyo1_LS-Vmess-cft
-      - NewYork1_DO-Vmess-cft
-      - SanFran1_DO-Vmess-cft
-      - Singapore1_DO-Vmess-cft
-      - SanFranNano_DO-SS-DirectV6
-      - SanFranNano_DO-SS-Direct
-      - SanFranNano_DO-Vmess-DirectV6
-      - SanFranNano_DO-Vmess-Direct
+      - NewYork**-CFrtDef
+      - SanFran**-DrctV6
+      - NewYork**-DrctV6
+      - SanFran**-CFrtDef
+      - NewYork**-CFlrDef
+      - Singapore-CFlrDef
+      - SanFran**-CFlrDef
+      - Tokyo****-CFrtDef
+      - Tokyo****-CFlrDef
+      - Singapore-CFrtDef
+      - Tokyo****-DrctV6
+      - Singapore-DrctV6
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -425,14 +342,18 @@ proxy-groups:
   - name: "fallback-auto"
     type: fallback
     proxies:
-      - Tokyo1_LS-Vmess-cft
-      - NewYork1_DO-Vmess-cft
-      - SanFran1_DO-Vmess-cft
-      - Singapore1_DO-Vmess-cft
-      - SanFranNano_DO-SS-DirectV6
-      - SanFranNano_DO-SS-Direct
-      - SanFranNano_DO-Vmess-DirectV6
-      - SanFranNano_DO-Vmess-Direct
+      - NewYork**-CFrtDef
+      - SanFran**-DrctV6
+      - NewYork**-DrctV6
+      - SanFran**-CFrtDef
+      - NewYork**-CFlrDef
+      - Singapore-CFlrDef
+      - SanFran**-CFlrDef
+      - Tokyo****-CFrtDef
+      - Tokyo****-CFlrDef
+      - Singapore-CFrtDef
+      - Tokyo****-DrctV6
+      - Singapore-DrctV6
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -440,14 +361,18 @@ proxy-groups:
   - name: "load-balance"
     type: load-balance
     proxies:
-      - Tokyo1_LS-Vmess-cft
-      - NewYork1_DO-Vmess-cft
-      - SanFran1_DO-Vmess-cft
-      - Singapore1_DO-Vmess-cft
-      - SanFranNano_DO-SS-DirectV6
-      - SanFranNano_DO-SS-Direct
-      - SanFranNano_DO-Vmess-DirectV6
-      - SanFranNano_DO-Vmess-Direct
+      - NewYork**-CFrtDef
+      - SanFran**-DrctV6
+      - NewYork**-DrctV6
+      - SanFran**-CFrtDef
+      - NewYork**-CFlrDef
+      - Singapore-CFlrDef
+      - SanFran**-CFlrDef
+      - Tokyo****-CFrtDef
+      - Tokyo****-CFlrDef
+      - Singapore-CFrtDef
+      - Tokyo****-DrctV6
+      - Singapore-DrctV6
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -456,17 +381,23 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - Tokyo1_LS-Vmess-cft
-      - NewYork1_DO-Vmess-cft
-      - SanFran1_DO-Vmess-cft
-      - Singapore1_DO-Vmess-cft
-      - SanFranNano_DO-SS-DirectV6
-      - SanFranNano_DO-SS-Direct
-      - SanFranNano_DO-Vmess-DirectV6
-      - SanFranNano_DO-Vmess-Direct
+      - DIRECT
       - auto
       - fallback-auto
       - load-balance
+      - NewYork**-CFrtDef
+      - SanFran**-DrctV6
+      - NewYork**-DrctV6
+      - SanFran**-CFrtDef
+      - NewYork**-CFlrDef
+      - Singapore-CFlrDef
+      - SanFran**-CFlrDef
+      - Tokyo****-CFrtDef
+      - Tokyo****-CFlrDef
+      - Singapore-CFrtDef
+      - Tokyo****-DrctV6
+      - Singapore-DrctV6
+
 
   # - name: UseProvider
   #   type: select
