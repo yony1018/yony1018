@@ -429,7 +429,19 @@ rules:
   # 自定义规则
   ## 您可以在此处插入您补充的自定义规则（请注意保持缩进）
 
+  - DOMAIN-SUFFIX,google.com,Proxy
   - DOMAIN-SUFFIX,iwara.tv,Proxy
+  - DOMAIN-SUFFIX,monkeytype.com,Proxy
+  - DOMAIN-SUFFIX,trakt.tv,Proxy
+  - DOMAIN-SUFFIX,bulianglin.com,Proxy
+  - DOMAIN-SUFFIX,brave.com,Proxy
+  - DOMAIN-SUFFIX,manhuagui.com,Proxy
+
+
+  - DOMAIN-SUFFIX,yony.giize.com,DIRECT
+  - DOMAIN-SUFFIX,yoony.giize.com,DIRECT
+  - DOMAIN-SUFFIX,api.spotify.com,DIRECT
+  - DOMAIN-SUFFIX,bilibili.com,DIRECT
 
 
   # Apple
