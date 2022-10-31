@@ -215,15 +215,18 @@ proxies:
   - {"type":"vmess","name":"SanFran**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:4:1d0::454:6000","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"NewYork**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:400:d0::1b19:1001","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"SanFran**-CFrtDef","ws-opts":{"path":"/"},"server":"dpzg89ykiz7ni.cloudfront.net","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"NewYork**-CFlrDef","ws-opts":{"path":"/"},"server":"ny.yonyvp.cf","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Singapore-CFlrDef","ws-opts":{"path":"/"},"server":"sgp.yonyvp.cf","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"SanFran**-CFlrDef","ws-opts":{"path":"/"},"server":"sfo.yonyvp.cf","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"Tokyo****-CFrtDef","ws-opts":{"path":"/"},"server":"d2xnov6qz6nkuj.cloudfront.net","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tokyo****-CFlrDef","ws-opts":{"path":"/"},"server":"tk.yonyvp.cf","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"Singapore-CFrtDef","ws-opts":{"path":"/"},"server":"d3ddulurbvblts.cloudfront.net","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"Tokyo****-DrctV6","ws-opts":{"path":"/"},"server":"2406:da14:574:1c00:cd09:2c79:cd57:591e","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"Singapore-DrctV6","ws-opts":{"path":"/"},"server":"2400:6180:0:d0::1585:7001","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
-
+  - {"type":"vmess","name":"Tokyo****-CFlr004","ws-opts":{"path":"/","headers":{"host":"tk.yonyvp.cf"}},"server":"104.21.78.3","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Tokyo****-CFlr002","ws-opts":{"path":"/","headers":{"host":"tk.yonyvp.cf"}},"server":"172.67.202.18","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Singapore-CFlr003","ws-opts":{"path":"/","headers":{"host":"sgp.yonyvp.cf"}},"server":"172.67.202.18","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Singapore-CFlr001","ws-opts":{"path":"/","headers":{"host":"sgp.yonyvp.cf"}},"server":"104.21.197.86","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SanFran**-CFlr006","ws-opts":{"path":"/","headers":{"host":"sfo.yonyvp.cf"}},"server":"104.21.94.239","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SanFran**-CFlr005","ws-opts":{"path":"/","headers":{"host":"sfo.yonyvp.cf"}},"server":"172.67.130.197","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"NewYork**-CFlr008","ws-opts":{"path":"/","headers":{"host":"ny.yonyvp.cf"}},"server":"104.21.83.51","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"NewYork**-CFlr007","ws-opts":{"path":"/","headers":{"host":"ny.yonyvp.cf"}},"server":"104.21.32.53","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
 #--------------------backup--------------------
   # - name: "vmess-http"
   #   type: vmess
@@ -324,18 +327,22 @@ proxy-groups:
   - name: "auto"
     type: url-test
     proxies:
+      - Tokyo****-CFrtDef
+      - Singapore-CFrtDef
       - NewYork**-CFrtDef
+      - SanFran**-CFrtDef
       - SanFran**-DrctV6
       - NewYork**-DrctV6
-      - SanFran**-CFrtDef
-      - NewYork**-CFlrDef
-      - Singapore-CFlrDef
-      - SanFran**-CFlrDef
-      - Tokyo****-CFrtDef
-      - Tokyo****-CFlrDef
-      - Singapore-CFrtDef
       - Tokyo****-DrctV6
       - Singapore-DrctV6
+      - Tokyo****-CFlr004
+      - Tokyo****-CFlr002
+      - Singapore-CFlr003
+      - Singapore-CFlr001
+      - SanFran**-CFlr006
+      - SanFran**-CFlr005
+      - NewYork**-CFlr008
+      - NewYork**-CFlr007
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -343,18 +350,22 @@ proxy-groups:
   - name: "fallback-auto"
     type: fallback
     proxies:
+      - Tokyo****-CFrtDef
+      - Singapore-CFrtDef
       - NewYork**-CFrtDef
+      - SanFran**-CFrtDef
       - SanFran**-DrctV6
       - NewYork**-DrctV6
-      - SanFran**-CFrtDef
-      - NewYork**-CFlrDef
-      - Singapore-CFlrDef
-      - SanFran**-CFlrDef
-      - Tokyo****-CFrtDef
-      - Tokyo****-CFlrDef
-      - Singapore-CFrtDef
       - Tokyo****-DrctV6
       - Singapore-DrctV6
+      - Tokyo****-CFlr004
+      - Tokyo****-CFlr002
+      - Singapore-CFlr003
+      - Singapore-CFlr001
+      - SanFran**-CFlr006
+      - SanFran**-CFlr005
+      - NewYork**-CFlr008
+      - NewYork**-CFlr007
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -362,18 +373,22 @@ proxy-groups:
   - name: "load-balance"
     type: load-balance
     proxies:
+      - Tokyo****-CFrtDef
+      - Singapore-CFrtDef
       - NewYork**-CFrtDef
+      - SanFran**-CFrtDef
       - SanFran**-DrctV6
       - NewYork**-DrctV6
-      - SanFran**-CFrtDef
-      - NewYork**-CFlrDef
-      - Singapore-CFlrDef
-      - SanFran**-CFlrDef
-      - Tokyo****-CFrtDef
-      - Tokyo****-CFlrDef
-      - Singapore-CFrtDef
       - Tokyo****-DrctV6
       - Singapore-DrctV6
+      - Tokyo****-CFlr004
+      - Tokyo****-CFlr002
+      - Singapore-CFlr003
+      - Singapore-CFlr001
+      - SanFran**-CFlr006
+      - SanFran**-CFlr005
+      - NewYork**-CFlr008
+      - NewYork**-CFlr007
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -386,18 +401,22 @@ proxy-groups:
       - auto
       - fallback-auto
       - load-balance
+      - Tokyo****-CFrtDef
+      - Singapore-CFrtDef
       - NewYork**-CFrtDef
+      - SanFran**-CFrtDef
       - SanFran**-DrctV6
       - NewYork**-DrctV6
-      - SanFran**-CFrtDef
-      - NewYork**-CFlrDef
-      - Singapore-CFlrDef
-      - SanFran**-CFlrDef
-      - Tokyo****-CFrtDef
-      - Tokyo****-CFlrDef
-      - Singapore-CFrtDef
       - Tokyo****-DrctV6
       - Singapore-DrctV6
+      - Tokyo****-CFlr004
+      - Tokyo****-CFlr002
+      - Singapore-CFlr003
+      - Singapore-CFlr001
+      - SanFran**-CFlr006
+      - SanFran**-CFlr005
+      - NewYork**-CFlr008
+      - NewYork**-CFlr007
 
 
   # - name: UseProvider
