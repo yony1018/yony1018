@@ -382,6 +382,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - PROXY
       - auto
       - fallback-auto
       - load-balance
