@@ -10,6 +10,7 @@ port: 7890
 
 # SOCKS5 代理端口
 socks-port: 7891
+ipv6: true
 
 # Linux 和 macOS 的 redir 透明代理端口 (重定向 TCP 和 TProxy UDP 流量)
 # redir-port: 7892
