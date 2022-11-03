@@ -397,7 +397,6 @@ proxy-groups:
   - name: Proxy
     type: select
     proxies:
-      - DIRECT
       - auto
       - fallback-auto
       - load-balance
