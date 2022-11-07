@@ -329,6 +329,8 @@ rules:
   - DOMAIN-SUFFIX,yoony.giize.com,DIRECT
   - DOMAIN-SUFFIX,cft.giize.com,DIRECT
   - DOMAIN-SUFFIX,api.spotify.com,DIRECT
+  - DOMAIN-SUFFIX,duckdns.org,DIRECT
+
 
 #Local LAN
   - DOMAIN-SUFFIX,ip6-localhost,DIRECT
