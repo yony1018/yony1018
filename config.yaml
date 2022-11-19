@@ -202,8 +202,8 @@ proxies:
   - {"type":"vmess","name":"Tokyo****-CFrtDef","ws-opts":{"path":"/"},"server":"d2xnov6qz6nkuj.cloudfront.net","port":"80","uuid":"5c118516-6319-4e6c-a1ea-0e24f14eaa17","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"Tokyo****-DrctV6","ws-opts":{"path":"/"},"server":"2406:da14:574:1c00:88c3:fe18:7264:8295","port":"80","uuid":"5c118516-6319-4e6c-a1ea-0e24f14eaa17","alterId":"0","cipher":"auto","network":"ws"}
 
-  - {"type":"vmess","name":"Singapore-CFrtDef","ws-opts":{"path":"/"},"server":"d3ddulurbvblts.cloudfront.net","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Singapore-DrctV6","ws-opts":{"path":"/"},"server":"2400:6180:0:d0::1585:7001","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Singapore-CFrtDef","ws-opts":{"path":"/"},"server":"d3ddulurbvblts.cloudfront.net","port":"80","uuid":"966c57af-1e28-4be7-8068-dcbd35bfa003","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Singapore-DrctV6","ws-opts":{"path":"/"},"server":"2400:6180:0:d0::147e:4001","port":"80","uuid":"966c57af-1e28-4be7-8068-dcbd35bfa003","alterId":"0","cipher":"auto","network":"ws"}
 
   - {"type":"vmess","name":"NewYork**-CFrtDef","ws-opts":{"path":"/"},"server":"d3jfc9m0y46p2q.cloudfront.net","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"NewYork**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:400:d0::1b19:1001","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
