@@ -199,22 +199,17 @@ dns:
     #   - '+.youtube.com'
 
 proxies:
-  - {"type":"vmess","name":"NewYork**-CFrtDef","ws-opts":{"path":"/"},"server":"d3jfc9m0y46p2q.cloudfront.net","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"SanFran**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:4:1d0::454:6000","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"NewYork**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:400:d0::1b19:1001","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"SanFran**-CFrtDef","ws-opts":{"path":"/"},"server":"dpzg89ykiz7ni.cloudfront.net","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tokyo****-CFrtDef","ws-opts":{"path":"/"},"server":"d2xnov6qz6nkuj.cloudfront.net","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Tokyo****-CFrtDef","ws-opts":{"path":"/"},"server":"d2xnov6qz6nkuj.cloudfront.net","port":"80","uuid":"5c118516-6319-4e6c-a1ea-0e24f14eaa17","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"Tokyo****-DrctV6","ws-opts":{"path":"/"},"server":"2406:da14:574:1c00:88c3:fe18:7264:8295","port":"80","uuid":"5c118516-6319-4e6c-a1ea-0e24f14eaa17","alterId":"0","cipher":"auto","network":"ws"}
+
   - {"type":"vmess","name":"Singapore-CFrtDef","ws-opts":{"path":"/"},"server":"d3ddulurbvblts.cloudfront.net","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tokyo****-DrctV6","ws-opts":{"path":"/"},"server":"2406:da14:574:1c00:cd09:2c79:cd57:591e","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"Singapore-DrctV6","ws-opts":{"path":"/"},"server":"2400:6180:0:d0::1585:7001","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tokyo****-CFlr004","ws-opts":{"path":"/","headers":{"host":"tk.yonyvp.cf"}},"server":"104.21.78.3","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Tokyo****-CFlr002","ws-opts":{"path":"/","headers":{"host":"tk.yonyvp.cf"}},"server":"172.67.202.18","port":"80","uuid":"effd5448-24ce-4a97-bd8f-2c21c31f8925","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Singapore-CFlr003","ws-opts":{"path":"/","headers":{"host":"sgp.yonyvp.cf"}},"server":"172.67.202.18","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"Singapore-CFlr001","ws-opts":{"path":"/","headers":{"host":"sgp.yonyvp.cf"}},"server":"104.21.197.86","port":"80","uuid":"f6ba0bc5-3ed1-4b49-9621-40f55e5138ec","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"SanFran**-CFlr006","ws-opts":{"path":"/","headers":{"host":"sfo.yonyvp.cf"}},"server":"104.21.94.239","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"SanFran**-CFlr005","ws-opts":{"path":"/","headers":{"host":"sfo.yonyvp.cf"}},"server":"172.67.130.197","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"NewYork**-CFlr008","ws-opts":{"path":"/","headers":{"host":"ny.yonyvp.cf"}},"server":"104.21.83.51","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"NewYork**-CFlr007","ws-opts":{"path":"/","headers":{"host":"ny.yonyvp.cf"}},"server":"104.21.32.53","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
+
+  - {"type":"vmess","name":"NewYork**-CFrtDef","ws-opts":{"path":"/"},"server":"d3jfc9m0y46p2q.cloudfront.net","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"NewYork**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:400:d0::1b19:1001","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
+
+  - {"type":"vmess","name":"SanFran**-CFrtDef","ws-opts":{"path":"/"},"server":"dpzg89ykiz7ni.cloudfront.net","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SanFran**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:4:1d0::454:6000","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
 
 proxy-groups:
   # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
