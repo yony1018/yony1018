@@ -205,11 +205,11 @@ proxies:
   - {"type":"vmess","name":"Singapore-CFrtDef","ws-opts":{"path":"/"},"server":"d3ddulurbvblts.cloudfront.net","port":"80","uuid":"966c57af-1e28-4be7-8068-dcbd35bfa003","alterId":"0","cipher":"auto","network":"ws"}
   - {"type":"vmess","name":"Singapore-DrctV6","ws-opts":{"path":"/"},"server":"2400:6180:0:d0::147e:4001","port":"80","uuid":"966c57af-1e28-4be7-8068-dcbd35bfa003","alterId":"0","cipher":"auto","network":"ws"}
 
-  - {"type":"vmess","name":"NewYork**-CFrtDef","ws-opts":{"path":"/"},"server":"d3jfc9m0y46p2q.cloudfront.net","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"NewYork**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:400:d0::1b19:1001","port":"80","uuid":"c514a059-ce21-4e09-ea3d-62a937a10968","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"NewYork**-CFrtDef","ws-opts":{"path":"/"},"server":"d3jfc9m0y46p2q.cloudfront.net","port":"80","uuid":"a1cfb76c-f40e-49aa-e270-97578c0a0b61","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"NewYork**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:400:d0::1f7d:9001","port":"80","uuid":"a1cfb76c-f40e-49aa-e270-97578c0a0b61","alterId":"0","cipher":"auto","network":"ws"}
 
-  - {"type":"vmess","name":"SanFran**-CFrtDef","ws-opts":{"path":"/"},"server":"dpzg89ykiz7ni.cloudfront.net","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"vmess","name":"SanFran**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:4:1d0::454:6000","port":"80","uuid":"d012f981-b15f-41ca-f5c9-6c68e079b3be","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SanFran**-CFrtDef","ws-opts":{"path":"/"},"server":"dpzg89ykiz7ni.cloudfront.net","port":"80","uuid":"a991ad56-80a8-42e1-febd-41ba2e6da89f","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"SanFran**-DrctV6","ws-opts":{"path":"/"},"server":"2604:a880:4:1d0::30e:e000","port":"80","uuid":"a991ad56-80a8-42e1-febd-41ba2e6da89f","alterId":"0","cipher":"auto","network":"ws"}
 
 proxy-groups:
   # url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
