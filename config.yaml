@@ -224,14 +224,7 @@ proxy-groups:
       - NewYork**-DrctV6
       - Tokyo****-DrctV6
       - Singapore-DrctV6
-      - Tokyo****-CFlr004
-      - Tokyo****-CFlr002
-      - Singapore-CFlr003
-      - Singapore-CFlr001
-      - SanFran**-CFlr006
-      - SanFran**-CFlr005
-      - NewYork**-CFlr008
-      - NewYork**-CFlr007
+
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -247,14 +240,7 @@ proxy-groups:
       - NewYork**-DrctV6
       - Tokyo****-DrctV6
       - Singapore-DrctV6
-      - Tokyo****-CFlr004
-      - Tokyo****-CFlr002
-      - Singapore-CFlr003
-      - Singapore-CFlr001
-      - SanFran**-CFlr006
-      - SanFran**-CFlr005
-      - NewYork**-CFlr008
-      - NewYork**-CFlr007
+
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -270,14 +256,7 @@ proxy-groups:
       - NewYork**-DrctV6
       - Tokyo****-DrctV6
       - Singapore-DrctV6
-      - Tokyo****-CFlr004
-      - Tokyo****-CFlr002
-      - Singapore-CFlr003
-      - Singapore-CFlr001
-      - SanFran**-CFlr006
-      - SanFran**-CFlr005
-      - NewYork**-CFlr008
-      - NewYork**-CFlr007
+
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
 
@@ -297,14 +276,7 @@ proxy-groups:
       - NewYork**-DrctV6
       - Tokyo****-DrctV6
       - Singapore-DrctV6
-      - Tokyo****-CFlr004
-      - Tokyo****-CFlr002
-      - Singapore-CFlr003
-      - Singapore-CFlr001
-      - SanFran**-CFlr006
-      - SanFran**-CFlr005
-      - NewYork**-CFlr008
-      - NewYork**-CFlr007
+
 
 
 rule-providers:
